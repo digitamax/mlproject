@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker' }
+    agent { label 'crd' }
 
     environment {
         DOCKER_PASSWORD = credentials('DOCKER_PASSWORD')
