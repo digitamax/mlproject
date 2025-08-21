@@ -4,4 +4,4 @@ metadata:
   name: mysql-configmap
   namespace: ml-project
 data:
-  MYSQL_DATABASE: "ml_db"
+  MYSQL_DATABASE: ml_db
