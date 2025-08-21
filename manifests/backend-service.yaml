@@ -4,10 +4,11 @@ metadata:
   name: backend-service
   namespace: ml-project
 spec:
-  type: ClusterIP
+  type: NodePort
+  selector:
+    app: backend
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-  selector:
-    app: backend
+      nodePort: 30005 
