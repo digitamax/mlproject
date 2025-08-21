@@ -4,5 +4,5 @@ metadata:
   name: frontend-configmap
   namespace: ml-project
 data:
-  REACT_APP_BACKEND_URL: http://192.168.100.15:5000
+  REACT_APP_BACKEND_URL: http://backend-service:5000
   CHOKIDAR_USEPOLLING: "true"
